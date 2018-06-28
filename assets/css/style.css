@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: url("../img/bg.jpg") center center no-repeat; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+header {
+  padding: 80px 60px 0 60px;
+  border-bottom: 4px solid #E7001C;
+  display: inline-block;
+  margin-bottom: 40px; }
+  header .logo {
+    padding-bottom: 30px;
+    max-width: 500px; }
+
+.flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
+
+.counter {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px 40px 30px 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; }
+  .counter p, .counter .timer, .counter span {
+    line-height: 1em;
+    display: block;
+    color: #850010;
+    font-weight: 800;
+    text-transform: uppercase; }
+  .counter p {
+    font-size: 83px; }
+  .counter .timer {
+    font-size: 120px; }
+  .counter span {
+    font-size: 58px; }
+
+.word-moment {
+  background: #E7001C;
+  border-radius: 10px;
+  padding: 30px;
+  margin-right: 50px; }
+  .word-moment p {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 15px; }
+  .word-moment .word {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 0; }
+    .word-moment .word h1 {
+      color: black;
+      font-size: 60px;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-align: center; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  footer .title {
+    border-bottom: 6px solid #E7001C; }
+    footer .title h2 {
+      margin-left: 80px;
+      color: #FFFFFF;
+      background: #E7001C;
+      display: inline-block;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      padding: 5px 10px;
+      text-transform: uppercase; }
+  footer .container-footer {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px 0; }
+  footer .slider-words {
+    max-width: 80%;
+    margin: 0 auto; }
+    footer .slider-words div {
+      font-weight: 600;
+      font-size: 25px;
+      text-transform: uppercase; }
+  footer .phrase {
+    max-width: 80%;
+    margin: 20px auto 0; }
+    footer .phrase p {
+      font-size: 20px;
+      font-weight: 600; }
+
+/*# sourceMappingURL=style.css.map */

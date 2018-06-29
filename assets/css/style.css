@@ -10,7 +10,8 @@ body {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: url("../img/bg.jpg") center center no-repeat; }
+  background: url("../img/bg.jpg") center center no-repeat;
+  background-size: cover; }
 
 img {
   display: block;
@@ -26,16 +27,19 @@ header {
     padding-bottom: 30px;
     max-width: 500px; }
 
-.flex {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between; }
+.flex::after {
+  content: "";
+  width: 0;
+  height: 0;
+  opacity: 0;
+  clear: both; }
 
 .counter {
-  background: rgba(255, 255, 255, 0.3);
+  background: #FFFFFF;
   padding: 30px 40px 30px 100px;
   border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px; }
+  border-bottom-right-radius: 10px;
+  float: left; }
   .counter p, .counter #timer, .counter span {
     line-height: 1em;
     display: block;
@@ -53,7 +57,8 @@ header {
   background: #E7001C;
   border-radius: 10px;
   padding: 30px;
-  margin-right: 50px; }
+  margin-right: 50px;
+  float: right; }
   .word-moment p {
     color: #FFFFFF;
     text-transform: uppercase;
@@ -89,7 +94,7 @@ footer {
       padding: 5px 10px;
       text-transform: uppercase; }
   footer .container-footer {
-    background: rgba(255, 255, 255, 0.3);
+    background: #FFFFFF;
     padding: 30px 0; }
   footer .slider-words {
     max-width: 80%;

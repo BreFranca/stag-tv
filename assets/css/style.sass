@@ -16,6 +16,7 @@ body
 body
     font-family: 'Open Sans', sans-serif
     background: url('../img/bg.jpg') center center no-repeat
+    background-size: cover
 
 img
     display: block
@@ -32,14 +33,18 @@ header
         max-width: 500px
 
 .flex
-    display: flex
-    align-items: flex-start
-    justify-content: space-between
+    &::after
+        content: ''
+        width: 0
+        height: 0
+        opacity: 0
+        clear: both
 .counter
-    background: rgba($white, .3)
+    background: $white
     padding: 30px 40px 30px 100px
     border-top-right-radius: 10px
     border-bottom-right-radius: 10px
+    float: left
     p, #timer, span
         line-height: 1em
         display: block
@@ -58,6 +63,7 @@ header
     border-radius: 10px
     padding: 30px
     margin-right: 50px
+    float: right
     p
         color: $white
         text-transform: uppercase
@@ -93,7 +99,7 @@ footer
             padding: 5px 10px
             text-transform: uppercase
     .container-footer
-        background: rgba($white, .3)
+        background: $white
         padding: 30px 0
     .slider-words
         max-width: 80%

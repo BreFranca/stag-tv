@@ -36,7 +36,7 @@ header {
   padding: 30px 40px 30px 100px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px; }
-  .counter p, .counter .timer, .counter span {
+  .counter p, .counter #timer, .counter span {
     line-height: 1em;
     display: block;
     color: #850010;
@@ -44,7 +44,7 @@ header {
     text-transform: uppercase; }
   .counter p {
     font-size: 83px; }
-  .counter .timer {
+  .counter #timer {
     font-size: 120px; }
   .counter span {
     font-size: 58px; }

@@ -71,8 +71,10 @@ header {
     width: 100%;
     padding: 15px 0; }
     .word-moment .word h1 {
+      padding-left: 15px;
+      padding-right: 15px;
       color: black;
-      font-size: 60px;
+      font-size: 45px;
       font-weight: 800;
       text-transform: uppercase;
       text-align: center; }
